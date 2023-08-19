@@ -30,7 +30,7 @@ jobs:
         run: |
           gh search repos topic:sparkfun-getting-started --owner sparkfun --json name,url,homepage,description > gsg.json
 
-      - name: commit updates
+      - name: commit updates to the repo
         run: |
           git config --global user.name 'SparkFun Automated Action'
           git config --global user.email 'your-username@users.noreply.github.com'
