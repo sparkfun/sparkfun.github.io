@@ -44,7 +44,7 @@
  }
 
  a:hover {
-  color: inherit;
+  color: #9c2214;
   text-decoration: underline;
  }
 
@@ -72,10 +72,12 @@
 
         // Iterate over each person object in the JSON data
         $.each(data, function(index, repo) {
+
+          // clean up name
           var row = $("<tr></tr>"); // Create a new table row
 
           // Create table cells and fill them with the person's data
-          var $td = $("<td></td>").html('<a href="' + repo.homepage + '">' + repo.name + '</a>');
+          var $td = $("<td></td>").html('<a href="' + repo.homepage + '">' + repo.name.replace(/_/g, ' ') + '</a>');
 
           row.append($td);         
           row.append($("<td></td>").text(repo.description));
