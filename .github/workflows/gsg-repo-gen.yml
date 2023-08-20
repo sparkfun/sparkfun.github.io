@@ -30,12 +30,19 @@ jobs:
         run: |
           gh search repos topic:sparkfun-getting-started --owner sparkfun --json name,url,homepage,description > gsg.json
 
-      - name: commit updates to the repo
+      - name: Check for updates
+        id: has_updates
         run: |
           git config --global user.name 'SparkFun Automated Action'
           git config --global user.email 'your-username@users.noreply.github.com'
+          git diff --exit-code gsg.json
+          continue-on-error: true
+
+      - name: Check-in gsg updates
+        if: steps.has_updates.outcome == 'success'
+        run: |
           git add gsg.json
-          git commit -am "daily update"
+          git commit -m "daily update"
           git push
 
       
