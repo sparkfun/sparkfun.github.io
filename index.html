@@ -18,7 +18,7 @@
   }
 
   table {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     border: 0px;
   }
@@ -31,7 +31,7 @@
   }
   th {
     padding: 10px 15px;
-    text-align: center;
+    text-align: left;
     border: 0px;
     font-size: 20px;
     font-weight: bold;
@@ -40,7 +40,7 @@
   a, a:visited, a:active {
   color: #E0311D;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
  }
 
  a:hover {
@@ -57,6 +57,7 @@
   <table id="data-table">
     <thead>
       <tr>
+        <th>GitHub Repo</th>
         <th>Documentation</th>
         <th>Description</th>
       </tr>
@@ -73,13 +74,18 @@
         // Iterate over each person object in the JSON data
         $.each(data, function(index, repo) {
 
-          // clean up name
           var row = $("<tr></tr>"); // Create a new table row
 
-          // Create table cells and fill them with the person's data
+          // Repo
+          var $td_r = $("<td></td>").html('<a href="' + repo.url + '">' + repo.name + '</a>');
+          row.append($td_r);
+          
+          // Documentation
           var $td = $("<td></td>").html('<a href="' + repo.homepage + '">' + repo.name.replace(/_/g, ' ') + '</a>');
 
           row.append($td);         
+
+          // Description
           row.append($("<td></td>").text(repo.description));
 
           tableBody.append(row); // Add the row to the table body
