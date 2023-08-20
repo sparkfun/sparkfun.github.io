@@ -39,7 +39,7 @@ jobs:
         continue-on-error: true
 
       - name: Check-in gsg updates
-        if: steps.has_updates.outcome == 'success'
+        if: steps.has_updates.outcome != 'success'
         run: |
           git add gsg.json
           git commit -m "daily update"
