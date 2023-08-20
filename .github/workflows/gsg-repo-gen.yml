@@ -28,7 +28,7 @@ jobs:
       # Run our gh command to find repos - only finds public repos with the given tag
       - name: gh command
         run: |
-          gh search repos topic:sparkfun-getting-started --owner sparkfun --json name,url,homepage,description > gsg.json
+          gh search repos topic:sparkfun-tutorial --owner sparkfun --json name,url,homepage,description > gsg.json
 
       - name: Check for updates
         id: has_updates
