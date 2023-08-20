@@ -36,7 +36,7 @@ jobs:
           git config --global user.name 'SparkFun Automated Action'
           git config --global user.email 'your-username@users.noreply.github.com'
           git diff --exit-code gsg.json
-          continue-on-error: true
+        continue-on-error: true
 
       - name: Check-in gsg updates
         if: steps.has_updates.outcome == 'success'
