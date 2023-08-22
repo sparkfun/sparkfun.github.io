@@ -60,17 +60,18 @@
   border-radius: 6px;
   border-width: 2px;
 }
-a.menu-entry, a.menu-entry:visited, a.menu-entry:active{
+a.menu-link, a.menu-link:visited, a.menu-link:active{
   font-size: 16px;
   font-weight: bold;
   color: #000000;
 }
-a.menu-entry:hover {
-  color: #9c2214;
-  text-decoration: underline;
+.menu-entry:hover {
   background-color: #E0311D;
 }
-    
+.menu-link:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}    
   </style>
 </head>
 <body>
@@ -80,21 +81,18 @@ a.menu-entry:hover {
       <td rowspan="2">
         <a href="https://www.sparkfun.com" target="_blank"><img src="resource/sparkfun-logo.png"></a>
       </td>
-      <td></td><td></td><td></td><td></td>
+      <td></td><td></td><td></td>
     </tr>
     <tr>
       <td align="center" class="menu-entry">
-        <a href="https://www.sparkfun.com/categories" target="_blank">SHOP</a>
+        <a class="menu-link" href="https://www.sparkfun.com/categories" target="_blank">SHOP</a>
       </td>
       <td align="center" class="menu-entry">
-        <a href="https://learn.sparkfun.com/" target="_blank">LEARN</a>
+        <a class="menu-link" href="https://learn.sparkfun.com/" target="_blank">LEARN</a>
       </td>
       <td align="center" class="menu-entry">
-        <a href="https://www.sparkfun.com/news" target="_blank">BLOG</a>
-      </td>
-      <td align="center" class="menu-entry">
-        <a href="https://www.sparkfun.com/services" target="_blank">SERVICES</a>
-      </td>                  
+        <a class="menu-link" href="https://www.sparkfun.com/news" target="_blank">BLOG</a>
+      </td>                
     </tr>
   </table>
   <hr>
