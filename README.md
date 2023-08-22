@@ -1,6 +1,6 @@
 # sparkfun.github.io
 
-This repo creates the GitHub pages custom domain `docs.sparkfun.com` and landing page that lists out all SparkFun GitHub product repos that have github pages documentation.
+This repo creates the GitHub pages custom domain [docs.sparkfun.com](https://docs.sparkfun.com) and landing page that lists out all SparkFun GitHub product repos that have github pages documentation.
 
 The list of available pages is created automatically by a GitHub Action that runs nightly. This GitHub actions searches for repos under the spakfun organization that have the topic `sparkfun-tutorial`.
 
