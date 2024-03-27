@@ -1,4 +1,4 @@
-name: List of repos that contain SparkFun Getting Started Guines 
+name: List of repos that contain SparkFun Getting Started Guides 
 on: 
   push:
     branches:
