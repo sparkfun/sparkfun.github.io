@@ -36,6 +36,7 @@ jobs:
           command: gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description > gsg.json
           max_attempts: 3
           retry_wait_seconds: 180
+          timeout_minutes: 2
 
       - name: Check for updates
         id: has_updates
