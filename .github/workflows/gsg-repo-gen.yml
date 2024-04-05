@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - "main"
+
+  workflow_dispatch:
+    branches:
+    
   schedule:
   # Daily at 8:20 UTC
     - cron: '20 8 * * *'
