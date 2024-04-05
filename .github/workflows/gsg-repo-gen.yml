@@ -31,9 +31,8 @@ jobs:
 
       # Run our gh command to find repos - only finds public repos with the given tag
       - name: gh command
-        run: |
-          gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description > gsg.json
-        retry:
+        uses: nick-fields/retry@v3
+        with:
           command: gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description > gsg.json
           max_attempts: 3
           retry_wait_seconds: 180
