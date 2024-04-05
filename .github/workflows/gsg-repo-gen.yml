@@ -33,6 +33,10 @@ jobs:
       - name: gh command
         run: |
           gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description > gsg.json
+        retry:
+          command: gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description > gsg.json
+          max_attempts: 3
+          retry_wait_seconds: 180
 
       - name: Check for updates
         id: has_updates
