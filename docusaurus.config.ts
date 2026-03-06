@@ -85,7 +85,17 @@ const config: Config = {
                 items.forEach(i => console.log(i.url));
                 return items;
             },
-
+            navigator: {
+                navigate({ itemUrl }) {
+                    window.location.assign(itemUrl);
+                },
+                navigateNewTab({ itemUrl }) {
+                    window.open(itemUrl, '_blank', 'noopener noreferrer');
+                },
+                navigateNewWindow({ itemUrl }) {
+                    window.open(itemUrl, '_blank', 'noopener noreferrer');
+                },
+            },
             // Optional: see doc section below
             contextualSearch: false,
 
