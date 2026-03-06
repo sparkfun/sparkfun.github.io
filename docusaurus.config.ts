@@ -90,7 +90,10 @@ const config: Config = {
                     window.location.href = itemUrl;
                 },
             },
-
+            transformItems(items) {
+                items.forEach(i => console.log(i.url));
+                return items;
+            },
             // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
             //externalUrlRegex: 'external\\.com|domain\\.com',
 
