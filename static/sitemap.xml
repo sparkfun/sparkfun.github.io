@@ -9,6 +9,10 @@
     <lastmod>2026-03-04T15:23:50Z</lastmod>
   </url>
   <url>
+    <loc>https://github.com/sparkfun/qwiic_cy8cmbr3_py</loc>
+    <lastmod>2026-03-05T23:43:17Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/sparkfun/SparkFun_GNSS_Flex_System</loc>
     <lastmod>2026-03-02T22:43:05Z</lastmod>
   </url>
@@ -29,8 +33,16 @@
     <lastmod>2026-03-02T22:42:44Z</lastmod>
   </url>
   <url>
+    <loc>https://github.com/sparkfun/qwiic_huskylens_py</loc>
+    <lastmod>2026-03-05T23:42:35Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/sparkfun/SparkFun_GNSSDO</loc>
     <lastmod>2026-03-02T22:55:46Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_oled_base_py</loc>
+    <lastmod>2026-03-05T23:29:05Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library</loc>
@@ -63,6 +75,10 @@
   <url>
     <loc>https://github.com/sparkfun/SparkFun_Qwiic_Ultrasonic_Arduino_Library</loc>
     <lastmod>2026-03-02T22:37:23Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library</loc>
+    <lastmod>2026-03-06T13:26:50Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SparkFun_GNSS_mosaic-T</loc>
@@ -117,6 +133,14 @@
     <lastmod>2026-03-02T22:27:45Z</lastmod>
   </url>
   <url>
+    <loc>https://github.com/sparkfun/qwiic_bmp581_py</loc>
+    <lastmod>2026-03-05T23:41:28Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_as7343_py</loc>
+    <lastmod>2026-03-05T23:34:27Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/sparkfun/SparkFun_Optical_Tracking_Odometry_Sensor</loc>
     <lastmod>2026-03-02T22:11:17Z</lastmod>
   </url>
@@ -127,6 +151,10 @@
   <url>
     <loc>https://github.com/sparkfun/SparkFun_Red_Vision_Kit_for_XRP</loc>
     <lastmod>2026-03-02T23:20:59Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/SparkFun_VEML7700_Arduino_Library</loc>
+    <lastmod>2026-03-06T12:31:08Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SuperHeadphones</loc>
@@ -149,12 +177,20 @@
     <lastmod>2026-03-02T23:21:33Z</lastmod>
   </url>
   <url>
+    <loc>https://github.com/sparkfun/qwiic_serlcd_py</loc>
+    <lastmod>2026-03-05T22:15:57Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/sparkfun/sfe-iot-node-lorawan</loc>
     <lastmod>2026-03-02T22:51:09Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S</loc>
     <lastmod>2026-03-02T22:24:06Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/SparkFun_MY1690_MP3_Decoder_Arduino_Library</loc>
+    <lastmod>2026-03-06T12:29:36Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SparkFun_IoT_Node_LoRaWAN</loc>
@@ -173,6 +209,10 @@
     <lastmod>2026-03-02T22:46:52Z</lastmod>
   </url>
   <url>
+    <loc>https://github.com/sparkfun/SparkFun_PicoDVI_Arduino_Library</loc>
+    <lastmod>2026-03-06T12:30:32Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080</loc>
     <lastmod>2026-03-02T22:23:20Z</lastmod>
   </url>
@@ -183,6 +223,154 @@
   <url>
     <loc>https://github.com/sparkfun/SparkFun_RFID_USB-C_Reader</loc>
     <lastmod>2026-03-02T22:49:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_ens160_py</loc>
+    <lastmod>2026-03-05T23:35:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/piservohat_py</loc>
+    <lastmod>2026-03-05T23:30:14Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_titan_gps_py</loc>
+    <lastmod>2026-03-05T23:30:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_tca9548a_py</loc>
+    <lastmod>2026-03-05T23:28:14Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_vl53l1x_py</loc>
+    <lastmod>2026-03-05T21:56:37Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_ism330dhcx_py</loc>
+    <lastmod>2026-03-05T23:39:21Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_max1704x_py</loc>
+    <lastmod>2026-03-05T23:39:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_tmp117_py</loc>
+    <lastmod>2026-03-05T23:42:03Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_tmp102_py</loc>
+    <lastmod>2026-03-05T23:35:43Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_mcp9600_py</loc>
+    <lastmod>2026-03-05T23:40:14Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_ads1015_py</loc>
+    <lastmod>2026-03-05T23:39:39Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_scd4x_py</loc>
+    <lastmod>2026-03-05T23:40:31Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_rv-8803_py</loc>
+    <lastmod>2026-03-05T23:42:19Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_vl53l5cx_py</loc>
+    <lastmod>2026-03-05T23:29:51Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_as726x_py</loc>
+    <lastmod>2026-03-05T23:39:05Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_as7265x_py</loc>
+    <lastmod>2026-03-05T23:31:29Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_micropressure_py</loc>
+    <lastmod>2026-03-05T23:38:17Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_fs3000_py</loc>
+    <lastmod>2026-03-05T23:36:41Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_pca9685_py</loc>
+    <lastmod>2026-03-05T23:37:15Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_scmd_py</loc>
+    <lastmod>2026-03-05T22:17:02Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_otos_py</loc>
+    <lastmod>2026-03-05T23:30:51Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_twist_py</loc>
+    <lastmod>2026-03-05T23:41:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_led_stick_py</loc>
+    <lastmod>2026-03-05T23:36:58Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_rfid_py</loc>
+    <lastmod>2026-03-05T23:31:48Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_max3010x_py</loc>
+    <lastmod>2026-03-05T23:27:56Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_mmc5983ma_py</loc>
+    <lastmod>2026-03-05T23:34:08Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_button_py</loc>
+    <lastmod>2026-03-05T23:32:05Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_relay_py</loc>
+    <lastmod>2026-03-05T23:28:30Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_alphanumeric_py</loc>
+    <lastmod>2026-03-05T23:28:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_nau7802_py</loc>
+    <lastmod>2026-03-05T23:35:07Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_ultrasonic_py</loc>
+    <lastmod>2026-03-05T23:42:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_cap1203_py</loc>
+    <lastmod>2026-03-05T23:38:49Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_soil_moisture_sensor_py</loc>
+    <lastmod>2026-03-05T23:31:10Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_veml6030_py</loc>
+    <lastmod>2026-03-05T23:35:26Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_sgp40_py</loc>
+    <lastmod>2026-03-05T23:38:34Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_keypad_py</loc>
+    <lastmod>2026-03-05T23:34:47Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/sparkfun/qwiic_bme280_py</loc>
+    <lastmod>2026-03-05T22:16:21Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/sparkfun/SparkFun_Pico_Add_On_Flipper</loc>

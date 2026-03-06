@@ -53,18 +53,18 @@ jobs:
       - name: Get SparkFun Doc repos
         run: gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description,updatedAt > sfe_raw.json
 
-      - name: Process repo data and get social images
-        run: python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --skip-images
+      # - name: Process repo data and get social images
+      #   run: python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --skip-images
 
-        # Make sure the action permission for the repo has read and write set for the GITHUB_TOKEN secret, otherwise the commit and push steps will fail with a permissions error
-      - name: Commit and push generated files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add ./sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
-          git diff --staged --quiet || git commit -m "Update processed repo data and images"
-          git push
+      #   # Make sure the action permission for the repo has read and write set for the GITHUB_TOKEN secret, otherwise the commit and push steps will fail with a permissions error
+      # - name: Commit and push generated files
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+      #     git add ./sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
+      #     git diff --staged --quiet || git commit -m "Update processed repo data and images"
+      #     git push
 
       - name: Build website
         run: npm run build

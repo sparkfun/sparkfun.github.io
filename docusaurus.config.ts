@@ -15,15 +15,15 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://gigapod.dev',
+    url: 'https://docs.sparkfun.com',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/dino-site-testing/',
+    baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'gigapod', // Usually your GitHub org/user name.
-    projectName: 'dino-site-testing', // Usually your repo name.
+    organizationName: 'sparkfun', // Usually your GitHub org/user name.
+    projectName: '', // Usually your repo name.
 
     onBrokenLinks: 'throw',
 
