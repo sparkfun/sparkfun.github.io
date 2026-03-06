@@ -17,7 +17,7 @@ jobs:
       run:
         working-directory: .
     env:
-      SFE_DOCS_PAT: ${{ secrets.SPARKFUN-DOCS-PAGE-GH-API }}
+      SFE_DOCS_PAT: ${{ secrets.REPO_ACCESS_FOR_DOCS }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
@@ -37,7 +37,7 @@ jobs:
             echo "Secret is set (length: ${#MY_SECRET})"
           fi
         env:
-          MY_SECRET: ${{ secrets.SPARKFUN-DOCS-PAGE-GH-API }}
+          MY_SECRET: ${{ secrets.REPO_ACCESS_FOR_DOCS }}
 
       - name: Install dependencies
         run: npm ci
