@@ -1,0 +1,147 @@
+{
+    "arduino": {
+        "label": "Arduino",
+        "description": "Arduio Libraries",
+        "color": "#e9669e"
+    },
+    "python": {
+        "label": "Python",
+        "description": "Python libraries and frameworks",
+        "color": "#39ca30"
+    },
+    "software": {
+        "label": "Software",
+        "description": "Software respositories",
+        "color": "#dfd545"
+    },
+    "gnss": {
+        "label": "GNSS",
+        "description": "Global Navigation Satellite System libraries and frameworks",
+        "color": "#a44fb7"
+    },
+    "qwiic": {
+        "label": "Qwiic",
+        "description": "Qwiic Connect libraries, boards and frameworks",
+        "color": "#127f82"
+    },
+    "datalogging": {
+        "label": "Datalogging",
+        "description": "Datalogging libraries, boards and frameworks",
+        "color": "#fe6829"
+    },
+    "display": {
+        "label": "Display",
+        "description": "Display Boards, libraries and frameworks",
+        "color": "#8c2f00"
+    },
+    "bluetooth": {
+        "label": "Bluetooth",
+        "description": "Bluetooth libraries, boards and frameworks",
+        "color": "#4267b2"
+    },
+    "network": {
+        "label": "Network",
+        "description": "Network libraries, boards and frameworks",
+        "color": "#14cfc3"
+    },
+    "sensor": {
+        "label": "Sensor",
+        "description": "Sensor boards and libraries",
+        "color": "#ffcfc3"
+    },
+    "dev-board": {
+        "label": "Dev Board",
+        "description": "Development Boards",
+        "color": "#ff0000"
+    },
+    "power": {
+        "label": "Power",
+        "description": "Power related libraries, boards and frameworks",
+        "color": "#000000"
+    },
+    "environmental": {
+        "label": "Environmental",
+        "description": "Environmental related libraries, boards and frameworks",
+        "color": "#00ff00"
+    },
+    "vision": {
+        "label": "Vision",
+        "description": "Vision related libraries, boards and frameworks",
+        "color": "#0000ff"
+    },
+    "audio": {
+        "label": "Audio",
+        "description": "Audio related libraries, boards and frameworks",
+        "color": "#ff00ff"
+    },
+    "light": {
+        "label": "Light",
+        "description": "Light related libraries, boards and frameworks",
+        "color": "#ffff00"
+    },
+    "iot": {
+        "label": "IoT",
+        "description": "Internet of Things related libraries, boards and frameworks",
+        "color": "#00ffff"
+    },
+    "distance": {
+        "label": "Distance",
+        "description": "Distance related libraries, boards and frameworks",
+        "color": "#ff6600"
+    },
+    "rfid": {
+        "label": "RFID",
+        "description": "RFID related libraries, boards and frameworks",
+        "color": "#6600ff"
+    },
+    "motion": {
+        "label": "Motion",
+        "description": "Motion related libraries, boards and frameworks",
+        "color": "#00ff66"
+    },
+    "wifi": {
+        "label": "WiFi",
+        "description": "WiFi related libraries, boards and frameworks",
+        "color": "#660000"
+    },
+    "input": {
+        "label": "Input",
+        "description": "Input related libraries, boards and frameworks",
+        "color": "#006600"
+    },
+    "accessory": {
+        "label": "Accessory",
+        "description": "Accessory related libraries, boards and frameworks",
+        "color": "#000066"
+    },
+    "esp32": {
+        "label": "ESP32",
+        "description": "ESP32 boards",
+        "color": "#ff0066"
+    },
+    "teensy": {
+        "label": "Teensy",
+        "description": "Teensy boards",
+        "color": "#6600ff"
+    },
+    "raspberry-pi": {
+        "label": "Raspberry Pi",
+        "description": "Raspberry Pi boards",
+        "color": "#00ff66"
+    },
+    "lora": {
+        "label": "LoRa",
+        "description": "LoRa related libraries, boards and frameworks",
+        "color": "#660000"
+    },
+    "xbee": {
+        "label": "XBee",
+        "description": "XBee related libraries, boards and frameworks",
+        "color": "#006600"
+    },
+    "timer": {
+        "label": "Timer",
+        "description": "Timer related libraries, boards and frameworks",
+        "color": "#ff6600"
+    }
+}
