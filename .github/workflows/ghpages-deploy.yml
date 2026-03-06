@@ -29,9 +29,16 @@ jobs:
           cache: npm
           cache-dependency-path: ./package-lock.json
 
-      - name: check id-token
-        run: echo "ID Token: ${{ secrets.SPARKFUN-DOCS-PAGE-GH-API }}"
-        
+      - name: Check secret is set
+        run: |
+          if [ -z "$MY_SECRET" ]; then
+            echo "Secret is NOT set"
+          else
+            echo "Secret is set (length: ${#MY_SECRET})"
+          fi
+        env:
+          MY_SECRET: ${{ secrets.SPARKFUN-DOCS-PAGE-GH-API }}
+
       - name: Install dependencies
         run: npm ci
 
