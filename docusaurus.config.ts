@@ -81,19 +81,14 @@ const config: Config = {
             apiKey: '981767a679772e5d03f0f8968a3d7a11',
 
             indexName: 'SparkFun_Documentation_Site',
-
-            // Optional: see doc section below
-            contextualSearch: false,
-
-            navigator: {
-                navigate({ itemUrl }) {
-                    window.location.href = itemUrl;
-                },
-            },
             transformItems(items) {
                 items.forEach(i => console.log(i.url));
                 return items;
             },
+
+            // Optional: see doc section below
+            contextualSearch: false,
+
             // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
             //externalUrlRegex: 'external\\.com|domain\\.com',
 
@@ -116,7 +111,7 @@ const config: Config = {
             // askAi: 'YOUR_ALGOLIA_ASK_AI_ASSISTANT_ID',
 
             //... other Algolia params
-        },
+        } satisfies AlgoliaConfig,
         navbar: {
             title: 'Documentation',
             logo: {
