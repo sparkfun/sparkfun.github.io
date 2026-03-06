@@ -29,6 +29,9 @@ jobs:
           cache: npm
           cache-dependency-path: ./package-lock.json
 
+      - name: check id-token:
+        run: echo "ID Token: ${SFE_DOCS_PAT}"
+        
       - name: Install dependencies
         run: npm ci
 
