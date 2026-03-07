@@ -4,6 +4,8 @@ on:
   # push:
   #   branches:
   #     - main
+  schedule:
+    - cron: "0 0 */2 * *"
   workflow_dispatch:
 
     # Review gh actions docs if you want to further define triggers, paths, etc
