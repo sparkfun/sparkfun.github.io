@@ -7,9 +7,9 @@
         "url": "https://github.com/sparkfun/SparkFun_RTK_Everywhere_Firmware",
         "preview": "/img/sparkfun/gh_banner_sparkfun-rtk-everywhere-firmware.png",
         "topics": [
+            "esp32",
             "gnss",
-            "arduino",
-            "esp32"
+            "arduino"
         ]
     },
     {
@@ -20,8 +20,8 @@
         "url": "https://github.com/sparkfun/SparkFun_RTK_Postcard",
         "preview": "/img/sparkfun/gh_banner_sparkfun-rtk-postcard.png",
         "topics": [
-            "gnss",
             "esp32",
+            "gnss",
             "wifi",
             "qwiic"
         ]
@@ -34,8 +34,8 @@
         "url": "https://github.com/sparkfun/qwiic_cy8cmbr3_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-cy8cmbr3-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -70,9 +70,9 @@
         "url": "https://github.com/sparkfun/SparkFun_DataLogger",
         "preview": "/img/sparkfun/gh_banner_sparkfun-datalogger.png",
         "topics": [
-            "iot",
             "datalogging",
             "esp32",
+            "iot",
             "qwiic"
         ]
     },
@@ -84,10 +84,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Portability_Shield",
         "preview": "/img/sparkfun/gh_banner_sparkfun-portability-shield.png",
         "topics": [
-            "display",
             "gnss",
             "accessory",
-            "input"
+            "input",
+            "display"
         ]
     },
     {
@@ -109,8 +109,8 @@
         "url": "https://github.com/sparkfun/qwiic_huskylens_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-huskylens-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -121,8 +121,8 @@
         "url": "https://github.com/sparkfun/SparkFun_GNSSDO",
         "preview": "/img/sparkfun/gh_banner_sparkfun-gnssdo.png",
         "topics": [
-            "time",
-            "gnss"
+            "gnss",
+            "time"
         ]
     },
     {
@@ -133,8 +133,8 @@
         "url": "https://github.com/sparkfun/qwiic_oled_base_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-oled-base-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -145,10 +145,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-oled-arduino-library.png",
         "topics": [
-            "qwiic",
             "arduino",
-            "display",
-            "software"
+            "software",
+            "qwiic",
+            "display"
         ]
     },
     {
@@ -159,8 +159,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_OLED_1.5in",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-oled-1-5in.png",
         "topics": [
-            "display",
-            "qwiic"
+            "qwiic",
+            "display"
         ]
     },
     {
@@ -171,8 +171,8 @@
         "url": "https://github.com/sparkfun/SparkFun_BlueSMiRF-v2",
         "preview": "/img/sparkfun/gh_banner_sparkfun-bluesmirf-v2.png",
         "topics": [
-            "bluetooth",
-            "esp32"
+            "esp32",
+            "bluetooth"
         ]
     },
     {
@@ -230,10 +230,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Ultrasonic_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-ultrasonic-arduino-library.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "arduino",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -244,10 +244,10 @@
         "url": "https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-bmv080-arduino-library.png",
         "topics": [
-            "qwiic",
-            "arduino",
+            "sensor",
             "software",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -258,8 +258,8 @@
         "url": "https://github.com/sparkfun/SparkFun_GNSS_mosaic-T",
         "preview": "/img/sparkfun/gh_banner_sparkfun-gnss-mosaic-t.png",
         "topics": [
-            "time",
-            "gnss"
+            "gnss",
+            "time"
         ]
     },
     {
@@ -281,11 +281,11 @@
         "url": "https://github.com/sparkfun/SparkFun_IoT_RedBoard-RP2350",
         "preview": "/img/sparkfun/gh_banner_sparkfun-iot-redboard-rp2350.png",
         "topics": [
-            "bluetooth",
-            "wifi",
             "raspberry-pi",
             "dev-board",
-            "qwiic"
+            "bluetooth",
+            "qwiic",
+            "wifi"
         ]
     },
     {
@@ -341,8 +341,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_OLED_1.3in",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-oled-1-3in.png",
         "topics": [
-            "display",
-            "qwiic"
+            "qwiic",
+            "display"
         ]
     },
     {
@@ -353,8 +353,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Soft_Power_Switch_USB-C",
         "preview": "/img/sparkfun/gh_banner_sparkfun-soft-power-switch-usb-c.png",
         "topics": [
-            "power",
-            "accessory"
+            "accessory",
+            "power"
         ]
     },
     {
@@ -410,8 +410,8 @@
         "url": "https://github.com/sparkfun/qwiic_bmp581_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-bmp581-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -422,8 +422,8 @@
         "url": "https://github.com/sparkfun/qwiic_as7343_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-as7343-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -434,10 +434,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Optical_Tracking_Odometry_Sensor",
         "preview": "/img/sparkfun/gh_banner_sparkfun-optical-tracking-odometry-sensor.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
             "motion",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -461,8 +461,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Red_Vision_Kit_for_XRP",
         "preview": "/img/sparkfun/gh_banner_sparkfun-red-vision-kit-for-xrp.png",
         "topics": [
-            "display",
-            "vision"
+            "vision",
+            "display"
         ]
     },
     {
@@ -473,9 +473,9 @@
         "url": "https://github.com/sparkfun/SparkFun_VEML7700_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-veml7700-arduino-library.png",
         "topics": [
-            "arduino",
+            "sensor",
             "software",
-            "sensor"
+            "arduino"
         ]
     },
     {
@@ -497,10 +497,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Soil_Moisture_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-soil-moisture-arduino-library.png",
         "topics": [
-            "qwiic",
-            "arduino",
+            "sensor",
             "software",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -511,8 +511,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Toolkit",
         "preview": "/img/sparkfun/gh_banner_sparkfun-toolkit.png",
         "topics": [
-            "arduino",
-            "software"
+            "software",
+            "arduino"
         ]
     },
     {
@@ -523,9 +523,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Ambient_Light_Sensor-VEML7700",
         "preview": "/img/sparkfun/gh_banner_sparkfun-ambient-light-sensor-veml7700.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "light",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -536,9 +536,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic",
         "preview": "/img/sparkfun/gh_banner_sparkfun-spectral-sensor-breakout-as7343-qwiic.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "light",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -549,8 +549,8 @@
         "url": "https://github.com/sparkfun/qwiic_serlcd_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-serlcd-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -586,8 +586,8 @@
         "url": "https://github.com/sparkfun/SparkFun_MY1690_MP3_Decoder_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-my1690-mp3-decoder-arduino-library.png",
         "topics": [
-            "arduino",
-            "software"
+            "software",
+            "arduino"
         ]
     },
     {
@@ -598,11 +598,11 @@
         "url": "https://github.com/sparkfun/SparkFun_IoT_Node_LoRaWAN",
         "preview": "/img/sparkfun/gh_banner_sparkfun-iot-node-lorawan.png",
         "topics": [
+            "lora",
             "raspberry-pi",
             "dev-board",
-            "xbee",
-            "lora",
-            "qwiic"
+            "qwiic",
+            "xbee"
         ]
     },
     {
@@ -613,8 +613,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X",
         "preview": "/img/sparkfun/gh_banner_sparkfun-serial-mp3-player-shield-my1690x.png",
         "topics": [
-            "audio",
-            "accessory"
+            "accessory",
+            "audio"
         ]
     },
     {
@@ -659,9 +659,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080",
         "preview": "/img/sparkfun/gh_banner_sparkfun-particulate-matter-sensor-breakout-bmv080.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "environmental",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -672,10 +672,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_XM125_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-xm125-arduino-library.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "arduino",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -697,8 +697,8 @@
         "url": "https://github.com/sparkfun/qwiic_ens160_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-ens160-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -709,8 +709,8 @@
         "url": "https://github.com/sparkfun/piservohat_py",
         "preview": "/img/sparkfun/gh_banner_piservohat-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -721,8 +721,8 @@
         "url": "https://github.com/sparkfun/qwiic_titan_gps_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-titan-gps-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -734,8 +734,8 @@
         "preview": "/img/sparkfun/gh_banner_qwiic-tca9548a-py.png",
         "topics": [
             "qwiic",
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -746,8 +746,8 @@
         "url": "https://github.com/sparkfun/qwiic_vl53l1x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-vl53l1x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -758,8 +758,8 @@
         "url": "https://github.com/sparkfun/qwiic_ism330dhcx_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-ism330dhcx-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -770,8 +770,8 @@
         "url": "https://github.com/sparkfun/qwiic_max1704x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-max1704x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -782,8 +782,8 @@
         "url": "https://github.com/sparkfun/qwiic_tmp117_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-tmp117-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -794,8 +794,8 @@
         "url": "https://github.com/sparkfun/qwiic_tmp102_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-tmp102-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -806,8 +806,8 @@
         "url": "https://github.com/sparkfun/qwiic_mcp9600_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-mcp9600-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -818,8 +818,8 @@
         "url": "https://github.com/sparkfun/qwiic_ads1015_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-ads1015-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -830,8 +830,8 @@
         "url": "https://github.com/sparkfun/qwiic_scd4x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-scd4x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -842,8 +842,8 @@
         "url": "https://github.com/sparkfun/qwiic_rv-8803_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-rv-8803-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -854,8 +854,8 @@
         "url": "https://github.com/sparkfun/qwiic_vl53l5cx_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-vl53l5cx-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -866,8 +866,8 @@
         "url": "https://github.com/sparkfun/qwiic_as726x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-as726x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -878,8 +878,8 @@
         "url": "https://github.com/sparkfun/qwiic_as7265x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-as7265x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -890,8 +890,8 @@
         "url": "https://github.com/sparkfun/qwiic_micropressure_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-micropressure-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -902,8 +902,8 @@
         "url": "https://github.com/sparkfun/qwiic_fs3000_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-fs3000-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -914,8 +914,8 @@
         "url": "https://github.com/sparkfun/qwiic_pca9685_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-pca9685-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -927,8 +927,8 @@
         "preview": "/img/sparkfun/gh_banner_qwiic-scmd-py.png",
         "topics": [
             "qwiic",
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -939,8 +939,8 @@
         "url": "https://github.com/sparkfun/qwiic_otos_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-otos-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -951,8 +951,8 @@
         "url": "https://github.com/sparkfun/qwiic_twist_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-twist-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -963,8 +963,8 @@
         "url": "https://github.com/sparkfun/qwiic_led_stick_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-led-stick-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -975,8 +975,8 @@
         "url": "https://github.com/sparkfun/qwiic_rfid_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-rfid-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -987,8 +987,8 @@
         "url": "https://github.com/sparkfun/qwiic_max3010x_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-max3010x-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -999,8 +999,8 @@
         "url": "https://github.com/sparkfun/qwiic_mmc5983ma_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-mmc5983ma-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1011,8 +1011,8 @@
         "url": "https://github.com/sparkfun/qwiic_button_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-button-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1023,8 +1023,8 @@
         "url": "https://github.com/sparkfun/qwiic_relay_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-relay-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1035,8 +1035,8 @@
         "url": "https://github.com/sparkfun/qwiic_alphanumeric_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-alphanumeric-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1047,8 +1047,8 @@
         "url": "https://github.com/sparkfun/qwiic_nau7802_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-nau7802-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1059,8 +1059,8 @@
         "url": "https://github.com/sparkfun/qwiic_ultrasonic_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-ultrasonic-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1071,8 +1071,8 @@
         "url": "https://github.com/sparkfun/qwiic_cap1203_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-cap1203-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1083,10 +1083,10 @@
         "url": "https://github.com/sparkfun/qwiic_soil_moisture_sensor_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-soil-moisture-sensor-py.png",
         "topics": [
+            "sensor",
             "qwiic",
-            "python",
             "software",
-            "sensor"
+            "python"
         ]
     },
     {
@@ -1097,8 +1097,8 @@
         "url": "https://github.com/sparkfun/qwiic_veml6030_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-veml6030-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1109,8 +1109,8 @@
         "url": "https://github.com/sparkfun/qwiic_sgp40_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-sgp40-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1121,8 +1121,8 @@
         "url": "https://github.com/sparkfun/qwiic_keypad_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-keypad-py.png",
         "topics": [
-            "python",
-            "software"
+            "software",
+            "python"
         ]
     },
     {
@@ -1133,10 +1133,10 @@
         "url": "https://github.com/sparkfun/qwiic_bme280_py",
         "preview": "/img/sparkfun/gh_banner_qwiic-bme280-py.png",
         "topics": [
+            "sensor",
             "qwiic",
-            "python",
             "software",
-            "sensor"
+            "python"
         ]
     },
     {
@@ -1147,9 +1147,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Pico_Add_On_Flipper",
         "preview": "/img/sparkfun/gh_banner_sparkfun-pico-add-on-flipper.png",
         "topics": [
-            "raspberry-pi",
+            "dev-board",
             "accessory",
-            "dev-board"
+            "raspberry-pi"
         ]
     },
     {
@@ -1160,10 +1160,10 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_OTOS_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-otos-arduino-library.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "arduino",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -1174,10 +1174,10 @@
         "url": "https://github.com/sparkfun/SparkFun_AS7331_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-as7331-arduino-library.png",
         "topics": [
-            "qwiic",
-            "arduino",
+            "sensor",
             "light",
-            "sensor"
+            "qwiic",
+            "arduino"
         ]
     },
     {
@@ -1188,9 +1188,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Buzzer_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-buzzer-arduino-library.png",
         "topics": [
+            "software",
             "qwiic",
-            "arduino",
-            "software"
+            "arduino"
         ]
     },
     {
@@ -1212,9 +1212,9 @@
         "url": "https://github.com/sparkfun/SparkFun_RTK_Torch",
         "preview": "/img/sparkfun/gh_banner_sparkfun-rtk-torch.png",
         "topics": [
+            "esp32",
             "gnss",
-            "arduino",
-            "esp32"
+            "arduino"
         ]
     },
     {
@@ -1250,9 +1250,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Pulsed_Radar_Sensor_XM125",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-pulsed-radar-sensor-xm125.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1274,8 +1274,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Three_Phase_Motor_Driver-TMC6300",
         "preview": "/img/sparkfun/gh_banner_sparkfun-three-phase-motor-driver-tmc6300.png",
         "topics": [
-            "power",
-            "motion"
+            "motion",
+            "power"
         ]
     },
     {
@@ -1286,9 +1286,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Thing_Plus_NORA-W306",
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-nora-w306.png",
         "topics": [
-            "bluetooth",
             "dev-board",
-            "qwiic"
+            "qwiic",
+            "bluetooth"
         ]
     },
     {
@@ -1299,9 +1299,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Navigation_Switch",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-navigation-switch.png",
         "topics": [
+            "qwiic",
             "accessory",
-            "input",
-            "qwiic"
+            "input"
         ]
     },
     {
@@ -1325,8 +1325,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7",
         "preview": "/img/sparkfun/gh_banner_sparkfun-buck-regulator-ap63357dv-7.png",
         "topics": [
-            "power",
-            "accessory"
+            "accessory",
+            "power"
         ]
     },
     {
@@ -1337,11 +1337,11 @@
         "url": "https://github.com/sparkfun/SparkFun_Thing_Plus_RP2350",
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-rp2350.png",
         "topics": [
-            "bluetooth",
-            "wifi",
             "raspberry-pi",
             "dev-board",
-            "qwiic"
+            "bluetooth",
+            "qwiic",
+            "wifi"
         ]
     },
     {
@@ -1352,9 +1352,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048",
         "preview": "/img/sparkfun/gh_banner_sparkfun-tristimulus-color-sensor-opt4048.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "light",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1376,9 +1376,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Pro_Micro_RP2350",
         "preview": "/img/sparkfun/gh_banner_sparkfun-pro-micro-rp2350.png",
         "topics": [
-            "raspberry-pi",
             "dev-board",
-            "qwiic"
+            "qwiic",
+            "raspberry-pi"
         ]
     },
     {
@@ -1390,8 +1390,8 @@
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-esp32-s3.png",
         "topics": [
             "dev-board",
-            "esp32",
-            "wifi"
+            "wifi",
+            "esp32"
         ]
     },
     {
@@ -1448,8 +1448,8 @@
         "url": "https://github.com/sparkfun/SparkFun_MOSFET_Power_Switch_and_Buck_Regulator_Low-Side",
         "preview": "/img/sparkfun/gh_banner_sparkfun-mosfet-power-switch-and-buck-regulator-low-side.png",
         "topics": [
-            "power",
-            "accessory"
+            "accessory",
+            "power"
         ]
     },
     {
@@ -1473,9 +1473,9 @@
         "url": "https://github.com/sparkfun/SparkFun_VR_IMU_Breakout_BNO086_QWIIC",
         "preview": "/img/sparkfun/gh_banner_sparkfun-vr-imu-breakout-bno086-qwiic.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "motion",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1486,8 +1486,8 @@
         "url": "https://github.com/sparkfun/SparkFun_MicroMod_LTE_GNSS_Function_Board_u-blox_SARA-R5",
         "preview": "/img/sparkfun/gh_banner_sparkfun-micromod-lte-gnss-function-board-u-blox-sara-r5.png",
         "topics": [
-            "iot",
-            "gnss"
+            "gnss",
+            "iot"
         ]
     },
     {
@@ -1498,11 +1498,11 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_TMF882X_Arduino_Library",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-tmf882x-arduino-library.png",
         "topics": [
-            "arduino",
-            "software",
             "sensor",
             "distance",
-            "qwiic"
+            "qwiic",
+            "software",
+            "arduino"
         ]
     },
     {
@@ -1538,11 +1538,11 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Pocket_Dev_Board_ESP32_C6",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-pocket-dev-board-esp32-c6.png",
         "topics": [
-            "bluetooth",
-            "wifi",
-            "esp32",
             "dev-board",
-            "qwiic"
+            "esp32",
+            "bluetooth",
+            "qwiic",
+            "wifi"
         ]
     },
     {
@@ -1553,9 +1553,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Spectral_UV_Sensor_AS7331",
         "preview": "/img/sparkfun/gh_banner_sparkfun-spectral-uv-sensor-as7331.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "light",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1577,11 +1577,11 @@
         "url": "https://github.com/sparkfun/SparkFun_Thing_Plus_ESP32_C6",
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-esp32-c6.png",
         "topics": [
-            "bluetooth",
-            "wifi",
-            "esp32",
             "dev-board",
-            "qwiic"
+            "esp32",
+            "bluetooth",
+            "qwiic",
+            "wifi"
         ]
     },
     {
@@ -1605,8 +1605,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Digi_XBee_Development_Board",
         "preview": "/img/sparkfun/gh_banner_sparkfun-digi-xbee-development-board.png",
         "topics": [
-            "qwiic",
             "dev-board",
+            "qwiic",
             "xbee"
         ]
     },
@@ -1619,8 +1619,8 @@
         "preview": "/img/sparkfun/gh_banner_sparkfun-esp32-qwiic-pro-mini.png",
         "topics": [
             "dev-board",
-            "esp32",
-            "qwiic"
+            "qwiic",
+            "esp32"
         ]
     },
     {
@@ -1631,9 +1631,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Ultrasonic_Distance_Sensor-Qwiic",
         "preview": "/img/sparkfun/gh_banner_sparkfun-ultrasonic-distance-sensor-qwiic.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1644,9 +1644,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Human_Presence_Sensor-STHS34PF80",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-human-presence-sensor-sths34pf80.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "distance",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1657,9 +1657,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Thing_Plus_RA6M5",
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-ra6m5.png",
         "topics": [
-            "bluetooth",
             "dev-board",
-            "qwiic"
+            "qwiic",
+            "bluetooth"
         ]
     },
     {
@@ -1670,9 +1670,9 @@
         "url": "https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver",
         "preview": "/img/sparkfun/gh_banner_sparkfun-iot-brushless-motor-driver.png",
         "topics": [
-            "iot",
             "motion",
             "wifi",
+            "iot",
             "qwiic"
         ]
     },
@@ -1696,8 +1696,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Digi_XBee_Arduino_Shield-USB-C",
         "preview": "/img/sparkfun/gh_banner_sparkfun-digi-xbee-arduino-shield-usb-c.png",
         "topics": [
-            "qwiic",
             "dev-board",
+            "qwiic",
             "xbee"
         ]
     },
@@ -1733,11 +1733,11 @@
         "url": "https://github.com/sparkfun/SparkFun_Thing_Plus_ESP32_WROOM_C",
         "preview": "/img/sparkfun/gh_banner_sparkfun-thing-plus-esp32-wroom-c.png",
         "topics": [
-            "bluetooth",
-            "wifi",
-            "esp32",
             "dev-board",
-            "qwiic"
+            "esp32",
+            "bluetooth",
+            "qwiic",
+            "wifi"
         ]
     },
     {
@@ -1748,8 +1748,8 @@
         "url": "https://github.com/sparkfun/SparkFun_LoRaSerial",
         "preview": "/img/sparkfun/gh_banner_sparkfun-loraserial.png",
         "topics": [
-            "iot",
             "network",
+            "iot",
             "lora"
         ]
     },
@@ -1761,9 +1761,9 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_6DoF_BMI270",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-6dof-bmi270.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "motion",
-            "sensor"
+            "qwiic"
         ]
     },
     {
@@ -1774,8 +1774,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Pro_Micro-ESP32C3",
         "preview": "/img/sparkfun/gh_banner_sparkfun-pro-micro-esp32c3.png",
         "topics": [
-            "dev-board",
             "esp32",
+            "dev-board",
             "wifi"
         ]
     },
@@ -1787,8 +1787,8 @@
         "url": "https://github.com/sparkfun/SparkFun_Qwiic_Hall_Effect_Sensor_TMAG5273",
         "preview": "/img/sparkfun/gh_banner_sparkfun-qwiic-hall-effect-sensor-tmag5273.png",
         "topics": [
-            "qwiic",
-            "sensor"
+            "sensor",
+            "qwiic"
         ]
     },
     {
@@ -1799,9 +1799,9 @@
         "url": "https://github.com/sparkfun/SparkFun_6DoF_LSM6DSV16X",
         "preview": "/img/sparkfun/gh_banner_sparkfun-6dof-lsm6dsv16x.png",
         "topics": [
-            "qwiic",
+            "sensor",
             "motion",
-            "sensor"
+            "qwiic"
         ]
     },
     {
