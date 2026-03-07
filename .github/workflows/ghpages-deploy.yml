@@ -17,27 +17,24 @@ jobs:
       run:
         working-directory: .
     env:
-      SFE_DOCS_PAT: ${{ secrets.REPO_ACCESS_FOR_DOCS }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: Generate token
+        id: app-token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
           cache-dependency-path: ./package-lock.json
-
-      - name: Check secret is set
-        run: |
-          if [ -z "$MY_SECRET" ]; then
-            echo "Secret is NOT set"
-          else
-            echo "Secret is set (length: ${#MY_SECRET})"
-          fi
-        env:
-          MY_SECRET: ${{ secrets.REPO_ACCESS_FOR_DOCS }}
 
       - name: Install dependencies
         run: npm ci
@@ -53,18 +50,21 @@ jobs:
       - name: Get SparkFun Doc repos
         run: gh search repos topic:sparkfun-tutorial --owner sparkfun --visibility public --sort updated --order desc --limit 1000 --json name,url,homepage,description,updatedAt > sfe_raw.json
 
-      # - name: Process repo data and get social images
-      #   run: python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --skip-images
+      - name: Process repo data and get social images
+        env:
+          SFE_DOCS_BUILD_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --skip-images
 
       #   # Make sure the action permission for the repo has read and write set for the GITHUB_TOKEN secret, otherwise the commit and push steps will fail with a permissions error
-      # - name: Commit and push generated files
-      #   run: |
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-      #     git add ./sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
-      #     git diff --staged --quiet || git commit -m "Update processed repo data and images"
-      #     git push
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add ./sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
+          git diff --staged --quiet || git commit -m "Update processed repo data and images"
+          git push
 
       - name: Build website
         run: npm run build

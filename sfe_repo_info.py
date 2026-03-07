@@ -13,7 +13,7 @@ import argparse
 
 # token for github API access - you can create one here: https://github.com/settings/tokens
 # on startup, load, look in the envi
-_GH_PAT = os.environ.get("SFE_DOCS_PAT")
+_GH_PAT = os.environ.get("SFE_DOCS_BUILD_TOKEN")
 
 
 # from PIL import Image
