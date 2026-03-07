@@ -56,7 +56,7 @@ jobs:
         env:
           SFE_DOCS_BUILD_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --skip-images
+          python ./sfe_repo_info.py ./sfe_raw.json ./src/data/sfe_data.json --tags-file=./src/data/sfe_tags.json --create-sitemap --site-dest=static --skip-images
 
       #   # Make sure the action permission for the repo has read and write set for the GITHUB_TOKEN secret, otherwise the commit and push steps will fail with a permissions error
       - name: Commit and push generated files
@@ -64,7 +64,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add ./sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
+          git add ./static/sitemap.xml ./src/data/sfe_data.json ./static/img/sparkfun/*
           git diff --staged --quiet || git commit -m "Update processed repo data and images"
           git push
 
